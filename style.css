@@ -18,27 +18,34 @@ h1, h2, p {
 
 .welcome-section h1 {
   font-size: 3em;
-  color: babyPink;
+  color: #FFC0CB; /* Baby Pink */
   margin: 0;
 }
 
 /* Story Section */
 .story-section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: 50px auto;
   gap: 20px;
+  max-width: 1200px;
 }
 
 .story-box {
   background-color: white;
-  border: 2px solid babyPink;
+  border: 2px solid #FFC0CB; /* Baby Pink Border */
   border-radius: 10px;
   width: 250px;
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.story-box:hover {
+  transform: scale(1.05);
 }
 
 .story-image {
@@ -50,7 +57,7 @@ h1, h2, p {
 .story-box h2 {
   font-size: 1.5em;
   margin: 10px 0;
-  color: babyPink;
+  color: #FFC0CB; /* Baby Pink */
 }
 
 .story-box p {
