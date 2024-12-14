@@ -64,3 +64,13 @@ h1, h2, p {
   font-size: 1em;
   color: black;
 }
+
+/* Make the entire box clickable */
+.story-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
